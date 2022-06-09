@@ -24,7 +24,24 @@ public class Tester {
 			
 		}
 		System.out.println(x+""+y); //11
+		
+		
+		System.out.println("\n\n");
+		
+		// 3rd prblem
+		x=0;
+		y=0;
+		
+		if((y == x++) | (x<++y)) {// 1st stmnt is wrong so 2nd stmnt will executed too
+			++y;                   // if stmnt is false so we skip this line
 		}
+		System.out.println(x+""+y);  // x = 1, y=1 ->11
+		
+		
+		
+		}
+	
+	
 	
 	
 	
