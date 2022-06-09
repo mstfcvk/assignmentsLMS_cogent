@@ -37,9 +37,32 @@ public class Tester {
 		}
 		System.out.println(x+""+y);  // x = 1, y=1 ->11
 		
+		// problem: 4
+		do {
+			System.out.println("inside do"); // this will execute once no matter w
+		}while(false);		// while condition
+		System.out.println("inside while"); // will print since not related to do/while
 		
+		
+		System.out.println("outside"); // will print since not related to do/while
+		
+		
+		System.out.println("\n\n  Problem 5 \n");
+		
+		int j= 10;
+		
+		switch(1) {  // incase where is 1
+		case 20: j+=1; 
+		case 40: j+=2;
+		default: j+=3; // j =13
+		case 0: j+=4;  // since no break j=17
+		}
+		System.out.println(j); // j=17 
 		
 		}
+	
+	
+		
 	
 	
 	
