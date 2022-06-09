@@ -12,8 +12,21 @@ public class Tester {
 		if(false|| true | (++y > 0 | y++>0)) 
 			System.out.println("s2"); // s2
 		System.out.println(x+" "+y);
-	
+		
+		
+		
+		// second problem
+		
+		x = 1;
+		y =0;
+		
+		if((y==x++) && x<++y) {  // x = 2 still, y =0  bc 2nd statement will pass
+			
 		}
+		System.out.println(x+""+y); //11
+		}
+	
+	
 	
 
 }
