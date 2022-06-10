@@ -18,6 +18,9 @@ public class Tester_q8 {
 		System.out.println(new Tester_q8().isEven(3)); // false
 		System.out.println(new Tester_q8().isEven(4));  // true
 		
+		
+		
+		// problem 9
 		String entries[]= {"entry1", "entry2"};
 		
 		int count =0;
